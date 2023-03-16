@@ -1,0 +1,72 @@
+.header-area {
+    vertical-align: middle;
+    padding-top: 20px;
+    position: relative;
+    position: fixed;
+    content: '';
+    width: 100%;
+    z-index: 2;
+    .logo-area {
+        padding-top: 8px;
+        a {
+            img {
+
+            }
+        }
+    }
+    .menu-area {
+        vertical-align: right;
+        ul {
+            text-align: right;
+            display: flex;
+            li {
+                flex-wrap: wrap;
+                flex-basis: 250px;
+                text-align: right;
+                list-style: none;
+                padding: 0 15px;
+                margin-top: 9px;
+                a {
+                    text-decoration: none;
+                    font-size: 18px;
+                    color: #fff;
+                    &:hover {
+                        border-bottom: 3px solid rgb(213, 103, 19);
+                    }
+                }
+            }
+        }
+    }
+    .button-area {
+        display: flex;
+        margin-top: 8px;
+        .btn1 {
+            a {
+                text-decoration: none;
+                background-color: rgb(21, 202, 208);
+                transition: .6s;
+                color: white;
+                padding: 10px 20px;
+                &:hover {
+                    background-color: rgb(104, 107, 179);
+                    color: white;
+                }
+            }
+        }
+        .btn2 {
+            a {
+                margin: 0;
+                text-decoration: none;
+                padding: 10px 20px;
+                background-color: rgb(238, 27, 253);
+                margin-left: 20px;
+                transition: .6s;
+                color: white;
+                &:hover {
+                    background-color: mediumvioletred;
+                    color: white;
+                }
+            }
+        }
+    }
+}
